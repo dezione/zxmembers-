@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="zxmembers.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>zxmembers</title>
+   
+</head>
+<body>
+    <header>
+        <h2>ZX TEAM MEMBERS</h2>
+    </header>
+    <MAIN>
+        <p id="p1"><u><i>Please click any photo below to view the profile of team members</i></u></p>
+        <br>
+        <ul id="ul">
+            <li>
+                <a href="#" onclick="showMemberInfo('Kariuki Dominic', 'As261/.../2022','+254794494729','2','domxz@gmail.com', 'Some details about Member 1')">
+                    <img src="Dom.jpg" width="120" height="180" alt="Member-1">Member-1
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="showMemberInfo('Isaac Mugo', 'As261/..../2022','+25475793170', '2','rastazmugo@gmail.com',  'Some details about Member 2')">
+                    <img src="Izooh.jpg" width="120" height="180" alt="Member-2">Member-2
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="showMemberInfo('Brian Macharia', 'As261/..../2022','+2547258673719','2', 'mabn@gmail.com' ,'Some details about Member 4')">
+                    <img src="Brayoh.jpg" width="120" height="180" alt="Member-4">Member-4 
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="showMemberInfo('Macharia DENNIS', 'AS261/0732/2022','+254114145760', '2' , 'machadennis223@gmail.com', 'I am a second year pursing a degree in mathematics and computer science . I a great fun of nature the reason i did this course to solve the many problem in our community and for that reason i joined my fellows in the building of the new tech world to transform the current world and bring  about a tech world in place   ')">
+                    <img src="Denny.jpg" width="120" height="180" alt="Member-3">Member-3
+                </a>
+            </li>
+           
+            <li>
+                <a href="#" onclick="showMemberInfo('Elizabeth Ngunjiri','As261/1502/2021','+254741594911', '2','elizabethngunjiri05@gmail.com','Elizabeth Ngunjiri here, a second-year student at Muranga University of Technology, pursuing a Bachelor degree in Mathematics and Computer Science. My aim is to foster positive advancements in computing for the future.')">
+                <img src="Liz.jpg" width="120" height="180" alt="Member-5" > Member-4
+                </a>
+            </li>
+        </ul>
+        <br>
+        <h3 id="h3"><u>OUR GROUP MOTIVE</u></h3>
+        <pre class="po">
+            
+            The ZX group formed in the summer of 2023, embarked on a journey fueled by a shared passion for academic and connection.
+            Comprising diverse backgrounds and skills, our motive is clear: to uplift oneself while forging enduring connections.
+                our goals revolve around creating a supportive enviroment for success, fostering personal ,professional and academic growth. 
+                   Rooted in a dream of establishing a mentorship program, Our aim is to inspire and guide individuals to unlock their full potential.
+                     In the coming days, the <b><u>zxmembers</u></b> envisions expanding our reach even to other fellows ,organizing events, and 
+                       fostering a network to collaboration and encouragement thrive.
+  
+            
+        </pre>
+    </MAIN>
+    <footer>
+       
+          <br>             
+                      </p>
+                <p>Reach us on our email address:</p>
+          <a href="MailTo:zxtech223.ac.ke">MailTo:zxtech223.ac.ke</a>
+        <br>  <span id="phone-icon"></span>       
+          <a href="tell:+254700006757">+254700006757</a>
+                      
+            <p>
+                OUR WHATSAPP GROUP LINK 
+        </p>    
+                 <a href="https://chat.whatsapp.com/H7ZXUd7NZE4FcmVJNiqN3Z" class="ac">
+                        group link
+    
+                             </a>
+                             <p>author:zxtech software international.
+                            <br></p>
+                             <p>
+                                zxtech softwares All rigths preserved &copy;<span id="copyrightyear"></span>  
+        
+                                <p id="po">
+                                    <U>
+                                       Fill feel to comment in our connections ,Thank you.
+                              </U> 
+                                          </p>
+                             
+                            </footer>
+
+    <script>
+        function showMemberInfo(name, regno, phone_number,Year_of_study,email, Detailed_information) {
+            alert(`Member name: \n${name}\nregstration number:\n ${regno}\nphone number:\n${phone_number}\nYear of study:\n${Year_of_study}\nemail:\n${email} \n\nDetailed information:\n ${Detailed_information}`);
+          
+        }
+        document.getElementById('copyrightyear').innerText=new Date().getFullYear();
+
+        </script>
+        
+</body>
+</html>
